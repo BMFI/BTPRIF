@@ -1,0 +1,4 @@
+the_house_is_white = True
+if the_house_is_white:
+  print("Thats a fine white house!")
+  
