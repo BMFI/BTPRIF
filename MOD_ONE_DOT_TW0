@@ -1,0 +1,10 @@
+is_the_house_white = False
+is_the_house_clean = False
+if is_the_house_white and is_the_house_clean:
+    print("Nice paint and clean!")
+elif is_the_house_white and not(is_the_house_clean):
+    print("Needs paint, but they keep it clean!")
+elif is_the_house_clean and not(is_the_house_white):
+    print("Clean house, but needs paint!")
+elif not(is_the_house_white) and not(is_the_house_clean):
+    print('I do not think they properly care for the house!')
