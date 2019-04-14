@@ -1,0 +1,10 @@
+is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump = True
+is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump_succsessful = True
+if is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump and is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump_succsessful:
+    print ("He has big brass cohoneys and he's a lucky cabron!")
+elif is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump and not(is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump_succsessful):
+    print("I hope the rider is alright and not injured, besides, their reputation is hurt for sure!")
+elif not(is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump ) and not( is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump_succsessful):
+    print (" While they repair or replace his motor bike: I noticed he went to the ambulace for a check up!")
+elif not(is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump ) and is_the_rider_took_his_motor_bike_for_a_three_hundred_sixty_degree_jump_succsessful:
+     print("That's not true the rider did not jump his Motor bike!")
