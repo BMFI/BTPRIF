@@ -1,0 +1,10 @@
+is_the_car_one_fast_car = False
+is_the_car_attractive_enough = False
+if is_the_car_one_fast_car and is_the_car_attractive_enough:
+    print ("That is my car!")
+elif is_the_car_one_fast_car and not (is_the_car_attractive_enough):
+    print("I would be ashamed to be seen near that car,but it is so fast!")
+elif is_the_car_attractive_enough and not (is_the_car_one_fast_car):
+    print ("It is beutiful, but one slow car!")
+elif not (is_the_car_attractive_enough) and not (is_the_car_one_fast_car):
+    print (" It is ugly and slow,so I say no it is not my car!")
